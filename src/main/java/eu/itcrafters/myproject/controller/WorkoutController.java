@@ -4,7 +4,6 @@ import eu.itcrafters.myproject.infrastructure.dto.WorkoutDTO;
 import eu.itcrafters.myproject.service.WorkoutService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 
 @RestController

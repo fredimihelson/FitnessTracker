@@ -4,8 +4,6 @@ import eu.itcrafters.myproject.persistence.customer.Customer;
 import eu.itcrafters.myproject.persistence.exercise.Exercise;
 import jakarta.persistence.*;
 import jakarta.persistence.Id;
-
-
 import java.math.BigDecimal;
 import java.time.LocalDate;
 
@@ -17,8 +15,7 @@ public class Workout {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-
-    @Column(name= "\"date\"")
+    @Column(name = "\"date\"")
     private LocalDate date;
 
     private int sets;
@@ -35,12 +32,8 @@ public class Workout {
     @JoinColumn(name = "exercise_id", nullable = false)
     private Exercise exercise;
 
-    // Konstruktorid (vajadusel)
-
     public Workout() {
     }
-
-    // Getterid ja setterid
 
     public Long getId() {
         return id;
