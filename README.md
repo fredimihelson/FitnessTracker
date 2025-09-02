@@ -20,6 +20,7 @@ A RESTful API built with Spring Boot for managing workouts, exercises, and custo
 - `GET /api/workouts/{id}` – Retrieve a specific workout by ID
 - `POST /api/workouts` – Create a new workout
 - `PUT /api/workouts/{id}` – Update an existing workout
+- `DELETE /api/workouts/{id}` – Delete a specific workout by ID
 
 ## ▶️ How to Run
 
