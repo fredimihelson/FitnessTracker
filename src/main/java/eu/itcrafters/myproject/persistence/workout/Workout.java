@@ -1,5 +1,4 @@
 package eu.itcrafters.myproject.persistence.workout;
-
 import eu.itcrafters.myproject.persistence.customer.Customer;
 import eu.itcrafters.myproject.persistence.exercise.Exercise;
 import jakarta.persistence.*;
@@ -17,11 +16,8 @@ public class Workout {
 
     @Column(name = "\"date\"")
     private LocalDate date;
-
     private int sets;
-
     private int reps;
-
     private BigDecimal weight;
 
     @ManyToOne(fetch = FetchType.LAZY)

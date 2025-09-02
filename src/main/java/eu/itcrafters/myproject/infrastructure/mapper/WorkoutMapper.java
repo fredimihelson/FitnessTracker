@@ -1,5 +1,4 @@
 package eu.itcrafters.myproject.infrastructure.mapper;
-
 import eu.itcrafters.myproject.infrastructure.dto.WorkoutDTO;
 import eu.itcrafters.myproject.persistence.customer.Customer;
 import eu.itcrafters.myproject.persistence.exercise.Exercise;

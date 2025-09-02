@@ -1,5 +1,4 @@
 package eu.itcrafters.myproject.controller;
-
 import eu.itcrafters.myproject.infrastructure.dto.WorkoutDTO;
 import eu.itcrafters.myproject.service.WorkoutService;
 import org.springframework.http.ResponseEntity;
